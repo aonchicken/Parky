@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ParkyAPI.Repository
+namespace ParkyAPI.Repository.IRepository
 {
     public interface INationalParkRepository
     {
@@ -14,7 +14,7 @@ namespace ParkyAPI.Repository
         bool NationalParkExists(int id);
         bool CreateNationalPark(NationalPark nationalPark);
         bool UpdateNationalPark(NationalPark nationalPark);
-        bool DeleteNAtionalPark(NationalPark nationalPark);
+        bool DeleteNationalPark(NationalPark nationalPark);
         bool Save();
 
     }
