@@ -14,7 +14,7 @@ namespace ParkyAPI.Models
         [Required]
         public string Name { get; set; }
         [Required]
-        public string Distance { get; set; }
+        public double Distance { get; set; }
         public enum DifficutyType { Easy, Moderate, Difficult, Expert }
         public DifficutyType Difficuty { get; set; }
         [Required]

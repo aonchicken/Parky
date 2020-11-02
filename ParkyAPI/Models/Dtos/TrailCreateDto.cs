@@ -12,7 +12,7 @@ namespace ParkyAPI.Models.Dtos
         [Required]
         public string Name { get; set; }
         [Required]
-        public string Distance { get; set; }
+        public double Distance { get; set; }
         public DifficutyType Difficuty { get; set; }
         [Required]
         public int NationalParkId { get; set; }
